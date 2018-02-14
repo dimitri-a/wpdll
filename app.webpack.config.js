@@ -5,7 +5,7 @@ module.exports = {
   },
   output: {
     filename: 'app.bundle.js',
-    path: 'build/',
+    path: '/Users/dimitri/Downloads/wpdll/build/',
   },
   plugins: [new webpack.DllReferencePlugin({
     context: '.',
