@@ -1,0 +1,19 @@
+{
+  "name": "wpdll",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "webpack": "^3.11.0"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^2.11.1"
+  },
+  "scripts": {
+    "build:dll": "webpack --config vendor.webpack.config.js",
+    "build": "npm run clean && npm run build:dll && npm run build:webpack",
+    "watch": "npm run build:dll && webpack-dev-server --config app.webpack.config.js  --watch --progress"
+  },
+  "author": "",
+  "license": "ISC"
+}
