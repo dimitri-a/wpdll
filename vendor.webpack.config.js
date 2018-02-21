@@ -1,7 +1,7 @@
 var webpack = require('webpack');
 module.exports = {
   entry: {
-    vendor: ['./vendor'],
+    vendor: ['angular'],
   },
   output: {
     filename: 'vendor.bundle.js',

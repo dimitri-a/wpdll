@@ -1,4 +1,7 @@
 Compile with:
+npm run build
+
+run the build: cmdline in build folder and 'http-server'
 
 ```sh
 webpack --config vendor.webpack.config.js
