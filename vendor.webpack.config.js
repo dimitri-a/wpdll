@@ -1,7 +1,8 @@
 var webpack = require('webpack');
+var pkg     = require('./package.json')
 module.exports = {
   entry: {
-    vendor: ['angular'],
+    vendor: Object.keys(pkg.dependencies),
   },
   output: {
     filename: 'vendor.bundle.js',
