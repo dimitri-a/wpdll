@@ -1,6 +1,7 @@
 import angular from 'angular';
 import uiRouter from 'angular-ui-router';
 
+import hero from './hero.scss';
 var app = angular.module("myApp", [uiRouter]);
 
 let babelTest=1;
